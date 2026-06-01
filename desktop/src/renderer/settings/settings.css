@@ -1,0 +1,46 @@
+html, body, #root { min-height: 100vh; width: 100%; }
+.settings-page { position: relative; min-height: 100vh; }
+.settings-content {
+  position: relative; z-index: 1;
+  max-width: 680px; margin: 0 auto;
+  padding: 48px 24px 80px;
+  display: flex; flex-direction: column; gap: 32px;
+}
+.header { display: flex; align-items: center; gap: 16px; }
+.header h1 {
+  font-size: 24px; font-weight: 800; letter-spacing: -.02em;
+  background: linear-gradient(135deg,#f59e0b,#ea580c);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.header p { font-size: 13px; color: var(--text-secondary); margin-top: 4px; }
+.section-title {
+  font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--text-muted); margin-bottom: 12px;
+}
+.glass-card {
+  background: var(--card-bg); backdrop-filter: blur(20px);
+  border: var(--card-border); border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow); padding: 20px;
+}
+.key-input {
+  width: 100%; background: rgba(0,0,0,.35); border: 1px solid rgba(245,158,11,.2);
+  border-radius: 6px; padding: 10px 12px; color: var(--text-primary);
+  font-family: var(--font-mono); font-size: 13px; outline: none;
+}
+.key-input:focus { border-color: rgba(245,158,11,.5); }
+.btn {
+  padding: 9px 18px; border-radius: 6px; font-size: 13px; font-weight: 600;
+  cursor: pointer; border: none; font-family: var(--font-sans);
+  transition: opacity 120ms;
+}
+.btn:hover { opacity: .85; }
+.btn:disabled { opacity: .4; cursor: not-allowed; }
+.btn-primary { background: rgba(245,158,11,.15); border: 1px solid rgba(245,158,11,.3); color: #fbbf24; }
+.btn-accent { background: linear-gradient(135deg,#f59e0b,#ea580c); color: #0a0908; }
+.status { font-size: 12px; margin-top: 10px; min-height: 18px; color: var(--ok); }
+.status.error { color: var(--err); }
+.modes-grid { display: flex; flex-direction: column; gap: 16px; }
+.kbd {
+  display: inline-block; background: rgba(245,158,11,.1); border: 1px solid rgba(245,158,11,.2);
+  border-radius: 3px; padding: 1px 5px; font-family: var(--font-mono); font-size: 11px; color: #fbbf24;
+}
