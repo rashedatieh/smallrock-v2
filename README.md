@@ -18,6 +18,11 @@
     <a href="SECURITY.md">Security</a> ·
     <a href="LICENSE">MIT License</a>
   </p>
+
+  <p>
+    <!-- Cover image. To use an animated demo instead, record the reel to docs/demo.gif and change src below. -->
+    <img src="docs/cover.png" alt="Small Rock — write rough text anywhere, press Ctrl+M, get the finished thing in place" width="820" />
+  </p>
 </div>
 
 ---
