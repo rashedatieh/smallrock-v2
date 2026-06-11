@@ -6,6 +6,15 @@
   <p><strong>Make everyone a prompt master.</strong></p>
 
   <p>
+    <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square&labelColor=1a1108"></a>
+    <a href="CHANGELOG.md"><img alt="Version 2.0.0" src="https://img.shields.io/badge/version-2.0.0-ea580c?style=flat-square&labelColor=1a1108"></a>
+    <img alt="Browser extension (Manifest V3)" src="https://img.shields.io/badge/Browser%20extension-MV3-f59e0b?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1108">
+    <img alt="Windows desktop app (Electron)" src="https://img.shields.io/badge/Windows%20app-Electron-fbbf24?style=flat-square&logo=electron&logoColor=1a1108&labelColor=1a1108">
+    <img alt="Powered by Google Gemini 2.5 Flash" src="https://img.shields.io/badge/Powered%20by-Gemini%202.5%20Flash-1a1108?style=flat-square&logo=googlegemini&logoColor=f59e0b&labelColor=1a1108">
+    <a href="SECURITY.md"><img alt="Security audited" src="https://img.shields.io/badge/Security-audited-22c55e?style=flat-square&labelColor=1a1108"></a>
+  </p>
+
+  <p>
     Write a rough prompt anywhere, press <kbd>Ctrl</kbd>+<kbd>M</kbd>, and Small Rock
     instantly rewrites it into a structured, professional prompt — in place.
     Tap once for Quick, twice for Technical, three times for Planning.
@@ -184,6 +193,8 @@ Full details, threat model, and the audit findings: **[SECURITY.md](SECURITY.md)
 
 ---
 
-## 📄 License
+## 📄 License & contributions
 
-[MIT](LICENSE) © 2026 Rashed Atieh
+[MIT](LICENSE) © 2026 Rashed Atieh — you're free to **use, download, fork, and modify** Small Rock.
+
+**Contributions to this repository are by the maintainer's permission only.** Please open an [issue](../../issues) to discuss before any pull request — see [CONTRIBUTING.md](CONTRIBUTING.md).

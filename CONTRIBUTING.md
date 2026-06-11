@@ -1,7 +1,26 @@
 # Contributing to Small Rock
 
-Thanks for your interest in improving Small Rock. This is a small, focused
-codebase — contributions that keep it that way are most welcome.
+Thanks for your interest in Small Rock.
+
+## Contribution policy
+
+Small Rock is an **owner-maintained project**. It is open source under the
+[MIT License](LICENSE), so you are free to **use, download, run, fork, and modify**
+it for your own purposes.
+
+**Contributions to this repository, however, are accepted by the maintainer's
+invitation/permission only.**
+
+- ✅ **Use it, download it, fork it, build your own version** — all permitted by the MIT license.
+- 💬 **Found a bug or have an idea?** Open an [issue](../../issues) to discuss it first.
+- 🔒 **Please do not open unsolicited pull requests.** Changes are reviewed and merged
+  only by the maintainer ([@rashedatieh](https://github.com/rashedatieh)), and only
+  after the change has been agreed in an issue. Drive-by or unsolicited PRs may be
+  closed without review.
+- 🔑 **Direct push access is restricted to the maintainer.** All merges require the
+  maintainer's approval (see [`.github/CODEOWNERS`](.github/CODEOWNERS)).
+
+If you'd like to contribute, reach out via an issue first — thank you for respecting this.
 
 ---
 
@@ -98,6 +117,11 @@ Types: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `ci`.
 ---
 
 ## Pull requests
+
+> Per the **Contribution policy** above, only open a PR after the change has been
+> agreed with the maintainer in an issue. Unsolicited PRs may be closed.
+
+Once a change is agreed:
 
 1. Branch from `main`
 2. Keep the PR focused on one change
