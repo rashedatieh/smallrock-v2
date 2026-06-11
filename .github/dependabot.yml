@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /desktop
+    schedule:
+      interval: weekly
+    groups:
+      build-tooling:
+        patterns:
+          - "vite"
+          - "electron-vite"
+          - "electron-builder"
+          - "@vitejs/*"
+    labels:
+      - dependencies
+
+  - package-ecosystem: npm
+    directory: /extension
+    schedule:
+      interval: weekly
+    groups:
+      build-tooling:
+        patterns:
+          - "vite"
+          - "@vitejs/*"
+    labels:
+      - dependencies
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels:
+      - dependencies
