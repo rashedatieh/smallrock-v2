@@ -3,6 +3,23 @@
 All notable changes to Small Rock are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Security
+
+- Upgraded Electron 31 → 42 (current stable; Electron 31 is end-of-life) to pick
+  up all upstream Chromium/Node security fixes flagged by Dependabot.
+- Upgraded Vite 5 → 7 and `@vitejs/plugin-react` 4 → 5 in both packages,
+  resolving the published `vite` and `esbuild` dev-server advisories.
+- Upgraded electron-vite 2 → 4 and electron-builder 25 → 26 (pulls a patched
+  `tar`, clearing the high-severity transitive alerts).
+
+### Added
+
+- GitHub Actions CI: every push and PR builds the extension (Ubuntu) and the
+  desktop app bundle (Windows).
+- Dependabot version updates (weekly) for both npm packages and GitHub Actions.
+
 ## [2.0.0] — 2026-06-01
 
 The v2 release: a premium UI, multi-mode rewriting, expanded site support, and a
