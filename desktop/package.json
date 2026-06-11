@@ -1,0 +1,29 @@
+{
+  "name": "smallrock-desktop",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Small Rock desktop companion — system-wide prompt rewriter",
+  "main": "dist-electron/main/index.js",
+  "scripts": {
+    "dev":        "electron-vite dev",
+    "build:app":  "electron-vite build",
+    "pack:win":   "electron-vite build && electron-builder --win --dir",
+    "build":      "electron-vite build && electron-builder --win",
+    "preview":    "electron-vite preview"
+  },
+  "dependencies": {
+    "electron-store": "^8.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^31.7.7",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["electron", "esbuild"]
+  }
+}
